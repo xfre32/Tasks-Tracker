@@ -1,38 +1,45 @@
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
 .App {
-  text-align: center;
+  text-align: start;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  margin: 15px 25px;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fields {
+  margin: 10px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons {
+  margin: 10px;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+input {
+  margin: 15px 20px;
+  width: 300px;
+  border-top: none;  
+  border-left: none;
+  border-right: none;
+  background-color: whitesmoke;
+}
+
+button {
+  margin: 15px 20px;
 }
